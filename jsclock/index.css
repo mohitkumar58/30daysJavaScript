@@ -41,3 +41,11 @@ h1 {
 .min-hand {
   height: 4px;
 }
+.author {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: calc(100% - 32px);
+  height: calc(100vh - 525px);
+  color: darkgray;
+}
