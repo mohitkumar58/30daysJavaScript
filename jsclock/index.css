@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+  background-image: url("./images/clock-bg.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right center;
+}
+h1 {
+  color: #000;
+}
+.root {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.clock {
+  width: 200px;
+  height: 200px;
+  border: 12px solid #00bcd4;
+  border-radius: 50%;
+  position: relative;
+}
+.hand {
+  width: 50%;
+  height: 2px;
+  background-color: #ff0f0f;
+  position: absolute;
+  top: 50%;
+  transform-origin: 100%;
+  transform: rotate(90deg);
+  transition-timing-function: cubic-bezier(0.1, 2.7, 0.58, 1);
+}
+.hour-hand {
+  height: 6px;
+}
+.min-hand {
+  height: 4px;
+}
