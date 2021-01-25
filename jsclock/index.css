@@ -51,6 +51,9 @@ h1 {
 .min-hand {
   height: 4px;
 }
+.second-hand {
+  z-index: 9;
+}
 .author {
   display: flex;
   justify-content: flex-end;
